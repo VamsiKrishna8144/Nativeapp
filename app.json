@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "react-native-android-app",
+    "slug": "react-native-android-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.example.rnandroidapp"
+    },
+    "android": {
+      "package": "com.example.rnandroidapp",
+      "permissions": [
+        "android.permission.INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "myapp"
+  }
+}
